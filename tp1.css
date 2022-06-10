@@ -1,0 +1,78 @@
+body
+{
+    width: 80%;
+    max-width: 90%;
+    margin: auto;
+}
+
+header
+{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#informations
+{
+margin-left: 16%;
+}
+
+#informations h1
+{
+text-align: center;
+margin:50px 0;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.designation_infos
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#serie_bac
+{
+    font-weight: bold;
+    color: brown;
+}
+
+#etat_civil li
+{
+    list-style-type: none;
+}
+
+#informations li
+{
+    margin-bottom: 10px;
+}
+
+#mon_identite
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#mon_identite img
+{
+    width: 15%;
+    height: 15%;
+}
+
+#mon_identite #nom
+{
+margin: 6% 5%;
+font-weight: bold;
+font-size: 5em;
+
+}
+
+footer
+{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}

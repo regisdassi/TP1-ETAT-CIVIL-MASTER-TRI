@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tp1.css">
+    <title>ETAT CIVIL</title>
+</head>
+<body>
+
+    <header>EXERCICE 1 / COURS DE DEVELOPPEMENT ET APPLICATIONS WEB / MASTER TRI</header>
+
+    <main>
+
+        <div id="mon_identite">
+            <img src="peniel.jpg" alt="Ma photo de profil">
+
+            <div id="nom">Péniel DASSI</div>
+        </div>
+
+        <div id="informations">
+
+            <h1>ETAT CIVIL</h1>
+
+            <ul id="etat_civil">
+
+                <li><span class="designation_infos"> Statut :</span> Célibataire</li>
+                <li><span class="designation_infos">Profession :</span> Etudiant</li>
+                <li><span class="designation_infos">Ethnie :</span> Goun</li>
+                <li><span class="designation_infos">Religion :</span> <form method="post" action="#">
+                    <input type="radio" name="religion" value="chretion" id="chretion" /> <label for="chretion">Chrétien</label><br/>
+                    <input type="radio" name="religion" value="musulman" id="musulman" /> <label for="musulman">Musulman</label><br/>
+                    <input type="radio" name="religion" value="autres" id="autre" /> <label for="autre">Autre religion</label><br/>
+                </form></li>
+                <li><span class="designation_infos">Sexe :</span> <form method="post" action="#">
+                    <input type="radio" name="sexe" value="Masculin" id="Masculin" /> <label for="Masculin">Masculin</label><br/>
+                    <input type="radio" name="sexe" value="Feminin" id="Feminin" /> <label for="Feminin">Féminin</label><br/>
+                </form></li>
+
+            </ul>
+            
+            <h1>Diplôme</h1>
+            <ol>
+
+                <li>BAC <span id="serie_bac">C</span></li>
+                <li>Licence science pour ingénieur</li>
+                <li>Ingénieur de conception en Réseaux et Télécommunications</li>
+
+            </ol>
+
+            <h1>Loisirs</h1>
+            <ul>
+
+                <li>Musique</li>
+                <li>Football</li>
+                <li>Danse</li>
+                <li>Théâtre</li>
+
+            </ul>
+
+        </div>
+    </main>
+
+    <footer>Copyright Péniel DASSI @ 2022</footer>
+</body>
+</html>
